@@ -17,5 +17,5 @@ for item in local_number.items():
     k, value = item
     print("k:", k, "value:", value)
 
-for k, v in local_number.items():
+for k, value in local_number.items():
     print("k:", k, "value:", value)
