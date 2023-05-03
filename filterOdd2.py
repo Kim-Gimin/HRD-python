@@ -1,10 +1,10 @@
 def isOdd(num):
     return num % 2 == 1
 
-list = [i for i in range(1, 11)]
+nums = [i for i in range(1, 11)]
 
-print ("list : ", list)
+print ("nums : ", nums)
 
-filter(isOdd, list)
+result = list(filter(isOdd, nums))
 
-print("list : ", list)
+print("list : ", nums)
