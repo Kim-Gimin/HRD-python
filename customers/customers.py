@@ -2,7 +2,7 @@ line_counter = 0
 data_header = []
 customer_list = []
 
-with open("customers.csv")as customer_data:
+with open(r"C:\Users\JS2-9\Documents\GitHub\HRD-python\customers\customers.csv", 'r')as customer_data:
     while 1:
         data = customer_data.readline()
         if not data:break
